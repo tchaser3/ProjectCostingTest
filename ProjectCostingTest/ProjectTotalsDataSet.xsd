@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ProjectTotalsDataSet" targetNamespace="http://tempuri.org/ProjectTotalsDataSet.xsd" xmlns:mstns="http://tempuri.org/ProjectTotalsDataSet.xsd" xmlns="http://tempuri.org/ProjectTotalsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ProjectTotalsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ProjectTotalsDataSet" msprop:Generator_UserDSName="ProjectTotalsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="projecttotals" msprop:Generator_TableClassName="projecttotalsDataTable" msprop:Generator_TableVarName="tableprojecttotals" msprop:Generator_TablePropName="projecttotals" msprop:Generator_RowDeletingName="projecttotalsRowDeleting" msprop:Generator_RowChangingName="projecttotalsRowChanging" msprop:Generator_RowEvHandlerName="projecttotalsRowChangeEventHandler" msprop:Generator_RowDeletedName="projecttotalsRowDeleted" msprop:Generator_UserTableName="projecttotals" msprop:Generator_RowChangedName="projecttotalsRowChanged" msprop:Generator_RowEvArgName="projecttotalsRowChangeEvent" msprop:Generator_RowClassName="projecttotalsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProjectID" msprop:Generator_ColumnVarNameInTable="columnProjectID" msprop:Generator_ColumnPropNameInRow="ProjectID" msprop:Generator_ColumnPropNameInTable="ProjectIDColumn" msprop:Generator_UserColumnName="ProjectID" type="xs:string" />
+              <xs:element name="CoaxHours" msprop:Generator_ColumnVarNameInTable="columnCoaxHours" msprop:Generator_ColumnPropNameInRow="CoaxHours" msprop:Generator_ColumnPropNameInTable="CoaxHoursColumn" msprop:Generator_UserColumnName="CoaxHours" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Coax" msprop:Generator_ColumnVarNameInTable="columnCoax" msprop:Generator_ColumnPropNameInRow="Coax" msprop:Generator_ColumnPropNameInTable="CoaxColumn" msprop:Generator_UserColumnName="Coax" type="xs:decimal" />
+              <xs:element name="TechOpsHours" msprop:Generator_ColumnVarNameInTable="columnTechOpsHours" msprop:Generator_ColumnPropNameInRow="TechOpsHours" msprop:Generator_ColumnPropNameInTable="TechOpsHoursColumn" msprop:Generator_UserColumnName="TechOpsHours" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Techops" msprop:Generator_ColumnVarNameInTable="columnTechops" msprop:Generator_ColumnPropNameInRow="Techops" msprop:Generator_ColumnPropNameInTable="TechopsColumn" msprop:Generator_UserColumnName="Techops" type="xs:decimal" />
+              <xs:element name="UndergroundHours" msprop:Generator_ColumnVarNameInTable="columnUndergroundHours" msprop:Generator_ColumnPropNameInRow="UndergroundHours" msprop:Generator_ColumnPropNameInTable="UndergroundHoursColumn" msprop:Generator_UserColumnName="UndergroundHours" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Underground" msprop:Generator_ColumnVarNameInTable="columnUnderground" msprop:Generator_ColumnPropNameInRow="Underground" msprop:Generator_ColumnPropNameInTable="UndergroundColumn" msprop:Generator_UserColumnName="Underground" type="xs:decimal" />
+              <xs:element name="FiberHours" msprop:Generator_ColumnVarNameInTable="columnFiberHours" msprop:Generator_ColumnPropNameInRow="FiberHours" msprop:Generator_ColumnPropNameInTable="FiberHoursColumn" msprop:Generator_UserColumnName="FiberHours" type="xs:decimal" />
+              <xs:element name="Fiber" msprop:Generator_ColumnVarNameInTable="columnFiber" msprop:Generator_ColumnPropNameInRow="Fiber" msprop:Generator_ColumnPropNameInTable="FiberColumn" msprop:Generator_UserColumnName="Fiber" type="xs:decimal" />
+              <xs:element name="TotalLaborCosts" msprop:Generator_ColumnVarNameInTable="columnTotalLaborCosts" msprop:Generator_ColumnPropNameInRow="TotalLaborCosts" msprop:Generator_ColumnPropNameInTable="TotalLaborCostsColumn" msprop:Generator_UserColumnName="TotalLaborCosts" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
